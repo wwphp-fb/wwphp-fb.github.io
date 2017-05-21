@@ -3,5 +3,11 @@ exclude:
     - 'LICENSE'
     - 'README.md'
 
+collections:
+    knowledge:
+        output: true
+        output_ext: html
+        permalink: /:path/
+
 gems:
     - 'jekyll-redirect-from'
